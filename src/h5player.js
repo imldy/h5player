@@ -1235,16 +1235,16 @@ class FullScreen {
             t.translate = { x: 0, y: 0 }
             break
           case 'arrowright' :
-            t.translate.x += 10
-            break
-          case 'arrowleft' :
             t.translate.x -= 10
             break
+          case 'arrowleft' :
+            t.translate.x += 10
+            break
           case 'arrowup' :
-            t.translate.y -= 10
+            t.translate.y += 10
             break
           case 'arrowdown' :
-            t.translate.y += 10
+            t.translate.y -= 10
             break
         }
 
